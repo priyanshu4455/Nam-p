@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Login Page</title>
+     <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #413c3c;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .college-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .college-header img {
+        height: 50px;
+    }
+
+    .college-name {
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #523fa6;
+    }
+
+    .card {
+        background: #86819f;
+        border-radius: 8px;
+        padding: 30px;
+        width: 300px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+
+    h1 {
+        color: #523fa6;
+        margin-bottom: 30px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    label {
+        font-size: 14px;
+        color: #333;
+        text-align: left;
+    }
+
+    input {
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+        background-color: #c3bec0;
+        font-size: 14px;
+    }
+
+    button {
+        background-color: #372d61;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background-color: #4604b2;
+    }
+     </style>
+</head>
+<body>
+
+    <div class="card">
+    <div class="college-header">
+        <img src="gec.jpg" alt="Logo">
+        <div class="college-name">GEC Jamui</div>
+    </div>
+
+    <h1>Login</h1>
+    <form action="#" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="text@gmail.com" autofocus>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <button type="submit">Sign In</button>
+    </form>
+    <div class="link">
+                Create Account? 
+                <a href="register.html">register</a>
+            </div>
+    </div>
+
+</body>
+</html>
