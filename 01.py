@@ -1,2 +1,4 @@
 a=5
-ptint(type(a))
+b=6
+print(a+b)
+print(type(a))
